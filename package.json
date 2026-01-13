@@ -21,8 +21,7 @@
 		"dev": "n8n-node dev",
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
+		"release": "n8n-node release"
 	},
 	"files": [
 		"dist"
@@ -34,7 +33,7 @@
         "dist/credentials/MsnConnectorApi.credentials.js"
     ],
     "nodes": [
-        "dist/nodes/msnconnector/MsnConnector.node.js"
+        "dist/nodes/msnconnector/msnconnector.node.js"
     ]
 },
 	"devDependencies": {
